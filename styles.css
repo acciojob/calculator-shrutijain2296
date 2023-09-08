@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#calculator{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+}
+input[type = "text"]{
+/* 	width: 100%; */
+	padding: 20px;
+	font-size: 24px;
+	outline: none;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+#buttons{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	
+}
+button{
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 20px;
+	margin: 2px;
+}
+button:hover{
+	background-color: lightgray;
+	cursor: pointer;
+}
