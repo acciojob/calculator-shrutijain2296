@@ -73,7 +73,7 @@ document.getElementById("ans").addEventListener('click', function(){
 			input.value = "NaN"
 		}
 		else if(!isFinite(result)){
-			input.value = "infinity";
+			input.value = "Infinity";
 		}
 		else{
 			input.value = result;
