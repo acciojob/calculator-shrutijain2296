@@ -15,7 +15,7 @@ input[type = "text"]{
 	padding: 20px;
 	font-size: 24px;
 	outline: none;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	margin-bottom: 10px;
 }
 #buttons{
@@ -27,9 +27,9 @@ button{
 	text-align: center;
 	padding: 20px;
 	background-color: white;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	font-size: 20px;
-	margin: 2px;
+/* 	margin: 2px; */
 }
 button:hover{
 	background-color: lightgray;
